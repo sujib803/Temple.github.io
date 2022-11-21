@@ -1,0 +1,326 @@
+*{
+   margin: 0px;
+}
+.continar{
+  
+  width:80%;
+  margin:auto;
+  display: table;
+  
+}
+/* <!-- -------------------------------------------------------< header-section >------------------------------------------------------ --> */
+.primarymenu{
+   background:rgb(68, 187, 13);
+   width:100%;
+   position: sticky;
+   top:0;
+   border-bottom: 2px solid black;
+}
+.logo{
+   width:15%;
+   float:left;
+}
+.logo img{
+   
+width: 80px;
+   
+height: 80px;
+
+transition:0.3s;
+}
+.logo img:hover{
+
+  transform:scale(1.1);
+  
+}
+.mainmenu{
+   width: 85%;
+   overflow: hidden;
+   margin: 25px 10px 0px 10px;
+}
+.menu-list{
+   list-style: none;
+}
+.menu-list li{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: arial black;
+   transition:0.3s;
+}
+.menu-list li:hover{
+
+   transform:scale(1.1);
+   
+}
+.celender{
+
+/* background: #279503;
+
+border-radius: 10px; */
+}
+.celender a{
+}
+.menu-list li a{
+   text-decoration:none;
+   padding: 5px;
+   margin: 10px;
+   display:block;
+   color:#0e0e0e;
+   font-weight: 400;
+   font-size: 18px;
+   transition: 1s;
+}
+.menu-list li a:hover{
+   color: rgb(255, 255, 255);
+   /* border-top: 1px solid rgb(90, 80, 80); */
+   border-bottom: 1px solid rgb(90, 80, 80);
+}
+.menu-list li p{
+   cursor: pointer;
+   text-decoration:none;
+   padding: 5px;
+   margin: 10px;
+   display:block;
+   color:#0e0e0e;
+   font-weight: 400;
+   font-size: 18px;
+   transition: 1s;
+}
+.menu-list li p:hover{
+   color: rgb(255, 255, 255);
+   /* border-top: 1px solid rgb(90, 80, 80); */
+   border-bottom: 1px solid rgb(90, 80, 80);
+}
+.submenu{
+   border-top: 1px solid #ddd;
+   position: absolute;
+   top: 84px;
+   right: 338px;
+   background: white;
+   /* visibility: hidden;
+   transform: scale(0);
+   transition: 0.3s;
+   transform-origin: top; */
+   display: none;
+}
+.submenu.open{
+   display: block;
+}
+.submenu-list{
+
+margin: 0px;
+
+padding: 0px;
+}
+.submenu-list li{
+
+display: grid;
+
+float: none;
+}
+.submenu-list li a{
+
+margin: 0px;
+
+padding: 10px 30px;
+
+font-size: 16px;
+
+font-weight: 200;
+
+color: black;
+text-decoration: none;
+
+border-bottom: 1px solid black;
+
+transition: 1s;
+}
+.submenu-list li a:hover{
+   /* background-color: rgb(122, 112, 112); */
+   background-color: rgb(11, 180, 115);
+   color: white;
+}
+/* <!-- -------------------------------------------------------< Gelary-section >------------------------------------------------------ --> */
+.gelary{
+
+   width: 90%;
+   margin: auto;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   height: auto;
+}
+.gelary h2{
+
+text-align: center;
+
+font-size: 18px;
+
+padding: 10px 0px 100px 0px;
+}
+.gelary p{
+
+text-align: center;
+
+color: red;
+
+font-size: 20px;
+
+letter-spacing: 2px;
+
+padding: 5px;
+}
+.img-box{
+
+width: 20%;
+
+margin: 15px;
+
+text-align: center;
+
+display: inline-block;
+}
+.img-box a img{
+
+width: 100%;
+
+border: 5px solid black;
+
+transition: 0.3s;
+}
+.img-box a img:hover{
+   
+   transform:scale(1.1);
+
+}
+.img-box span{font-size: 15px;letter-spacing: 1px;}
+/* <!-- -------------------------------------------------------< Footer-section >------------------------------------------------------ --> */
+.footer{
+      
+}
+.footer-up{
+
+width: 100%;
+
+height: 230px;
+
+padding-top: 50px;
+
+background: #050a48;
+}
+.Dakhina{
+
+width: 50%;
+
+float: left;
+}
+.Dakhina h3{
+
+color: white;
+
+padding: 5px;
+
+padding-bottom: 15px;
+}
+.Dakhina p{
+
+color: red;
+
+font-size: 15px;
+}
+.banking{
+
+   display: inline-flex;
+   padding: 0px 0px 15px 0px;
+}
+.banking img{
+
+height: 50px;
+
+width: 90px;
+}
+.banking p{
+
+color: #aaa;
+
+padding: 14px 5px;
+
+display: block;
+
+font-size: 15px;
+}
+.follow{
+
+width: 50%;
+
+overflow: hidden;
+
+text-align: center;
+}
+.follow a{
+
+}
+.follow a i{
+
+color: red;
+
+padding: 10px;
+
+font-size: 30px;
+
+transition:0.3s;
+}
+.follow a i:hover{
+
+  transform:scale(1.1);
+  color: blue;
+  
+}
+.follow p{
+  
+color: #cbc8c8;
+  
+padding: 10px;
+}
+.follow span{
+
+color: #aaaa;
+
+font-size: 14px;
+
+display: block;
+
+text-align: left;
+
+margin-left: 250px;
+}
+.follow i{
+
+}
+/* .follow img{
+
+height: 115px;
+
+float: left;
+
+margin: -30px 10px 0px 50px;
+} */
+.copy-right{
+
+background: black;
+
+width: 100%;
+
+padding: 10px 0px;
+
+border-top: 2px solid #f00;
+}
+.copy-right p{
+  
+color: white;
+  
+text-align: center;
+  
+font-style: italic;
+}
